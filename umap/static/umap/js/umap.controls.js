@@ -665,7 +665,7 @@ const ControlsMixin = {
         'mouseover',
         function () {
           this.tooltip.open({
-            content: L._('{connectedPeers} peers currently connected to this map', {
+            content: L._('{connectedPeers} peer(s) currently connected to this map', {
               connectedPeers: connectedPeers,
             }),
             anchor: connectedPeersCount,
